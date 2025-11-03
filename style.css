@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f0f5fa;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
